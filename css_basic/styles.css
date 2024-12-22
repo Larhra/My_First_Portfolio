@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+    color: red;
+    border: 1px solid;
+    border-radius: 5px;
+}
+article h1{
+    color: aqua;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+    color: red;
+    border: 1px dotted;
+    border: 5px;
+}
+@media (min-width: 768px) {
+}
